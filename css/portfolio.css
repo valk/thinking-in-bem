@@ -1,0 +1,90 @@
+.block-left, .c-portfolio__add-select, .c-portfolio__add-button, .c-portfolio__rename, .c-portfolio__h-separator, .c-portfolio__delete, .c-portfolio-item__first, .c-portfolio-item__middle {
+  display: inline-block;
+  float: left; }
+
+.block-right, .c-portfolio__edit, .c-portfolio-item__last {
+  display: inline-block;
+  float: right;
+  text-align: right; }
+
+.portfolio-font, .c-portfolio__controls, .c-portfolio-item {
+  text-transform: none;
+  font-size: 12px;
+  color: #333;
+  text-align: left; }
+
+.r-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  display: block;
+  line-height: 1; }
+
+.c-portfolio {
+  background: #fff;
+  width: 12rem;
+  height: 21rem;
+  margin: 0 auto;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-weight: 300;
+  word-spacing: -0.03rem; }
+  .c-portfolio__head {
+    min-height: 4rem;
+    background: #ddd;
+    padding: 0.5rem; }
+  .c-portfolio__body {
+    min-height: 18rem;
+    background: #fff; }
+  .c-portfolio__add-symbol {
+    clear: both;
+    overflow: hidden; }
+  .c-portfolio__add-select {
+    margin: 0.5rem 0 0; }
+  .c-portfolio__add-button {
+    margin: 0.5rem 0 0;
+    background: #ff7200;
+    width: 2rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    text-align: center;
+    padding: 0.08rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer; }
+  .c-portfolio__select {
+    border-bottom: 1px solid #888;
+    padding: 0 0 3px;
+    cursor: pointer; }
+  .c-portfolio__bottom {
+    clear: both; }
+  .c-portfolio__rename {
+    cursor: pointer; }
+  .c-portfolio__h-separator {
+    margin: 0 0.3rem; }
+  .c-portfolio__delete {
+    cursor: pointer; }
+  .c-portfolio__edit {
+    cursor: pointer; }
+
+.c-portfolio-item {
+  overflow: auto;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 0.5rem;
+  cursor: pointer; }
+  .c-portfolio-item__middle {
+    color: #37AE65;
+    margin: 0.5rem;
+    width: 2.5rem;
+    text-align: right; }
+  .c-portfolio-item__stock-name {
+    font-weight: bold;
+    color: #114C9A; }
+  .c-portfolio-item__price {
+    color: #000; }
+  .c-portfolio-item__price-change {
+    color: #37AE65; }
+
+/*# sourceMappingURL=portfolio.css.map */

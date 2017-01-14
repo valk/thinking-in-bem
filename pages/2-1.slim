@@ -1,0 +1,25 @@
+.c-page.c-page--color-2
+  .l-block-wrapper
+    .c-page-title
+      .c-page-title__main
+        | Thinking in BEM
+      .c-page-title__primary
+        | Motivation
+      .c-page-title__secondary
+        | Problems with CSS
+    .l-page-wrapper
+      .c-text
+        ul.c-list
+          li.c-list__element
+            | If elsewhere someone adds:
+            .c-code
+              | span div ul {
+              br
+              | &nbsp;&nbsp;&nbsp; …
+              br
+              | }
+            | it can change the ul we defined previously. So what exactly are we defining with plain CSS rules?
+          li.c-list__element
+            strong
+              | There's no strict control
+            |  over which HTML is affected by CSS rules.

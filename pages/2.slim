@@ -1,0 +1,30 @@
+.c-page.c-page--color-2
+  .l-block-wrapper
+    .c-page-title
+      .c-page-title__main
+        | Thinking in BEM
+      .c-page-title__primary
+        | Motivation
+      .c-page-title__secondary
+        | Problems with CSS
+    .l-page-wrapper
+      .c-text
+        ul.c-list
+          li.c-list__element
+            strong
+              | Spaghetti code
+          li.c-list__element
+            strong
+              | Not self-descriptive
+            |  e.g. it's not clear from the CSS rule to which HTML parts it will apply.
+          li.c-list__element
+            | For example add some style for a menu: 
+            .c-code
+                | div ul {
+                br
+                | &nbsp;&nbsp; …
+                br
+                | }
+            | Problem is, 
+            strong
+              | it can be applied to anything.

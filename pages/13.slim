@@ -1,0 +1,32 @@
+.c-page.c-page--color-5
+  .c-page-title
+    .c-page-title__main
+      | Thinking in BEM
+    .c-page-title__primary
+      | Create a menu
+    .c-page-title__secondary
+      | Simplest menu example
+  .l-page-wrapper
+    .c-text
+      | With BEM we have:
+    code.c-code
+      | .c-menu { width: 600px; height:240px; 
+      span.c-bg.c-bg--red
+        | background: red
+      | ;
+      br
+      | &nbsp;&nbsp;&--blue { 
+      span.c-bg.c-bg--blue
+        | background: blue; 
+      | }
+      br
+      | &nbsp;&nbsp;&__menu-element { float: left; min-width: 50px; line-height: 240px;
+      br
+      | &nbsp;&nbsp;&nbsp;&nbsp; &--red { 
+      span.c-bg.c-bg--red
+        | background: red; 
+      |  } 
+      br
+      | &nbsp;&nbsp; }
+      br
+      | }

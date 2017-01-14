@@ -1,0 +1,46 @@
+ruby:
+  slides = [
+    'about', 4..7, '7_dimension', 1, '1-1', 'plan-wide', 2, '2-1', '2-2', '2-3', 3, 8, '8-1', 9..10, 'omg', 11, 13..20, '20-code', 21, 'thanks', 'credits'
+  ].map{ |e| e.class == Range ? e.to_a : e }.flatten
+
+doctype html
+html.no-js[lang="en"]
+  head
+    meta[charset="UTF-8"]
+    meta[http-equiv="X-UA-Compatible" content="chrome=1"]
+    meta[name="viewport" content="width=device-width, initial-scale=1.0"]
+    title
+      | Thinking in BEM
+    meta[name="description" content="Thinking in BEM presentation"]
+    meta[name="keywords" content="thinking in bem, bem, css, presentation"]
+    meta[name="author" content="Val Kotlarov Hoffman"]
+    link[rel="stylesheet" type="text/css" href="css/default.css"]
+    link[rel="stylesheet" type="text/css" href="css/multilevelmenu.css"]
+    link[rel="stylesheet" type="text/css" href="css/component.css"]
+    link[rel="stylesheet" type="text/css" href="css/animations.css"]
+    link[rel="stylesheet" type="text/css" href="css/presentation.css"]
+    link[rel="stylesheet" type="text/css" href="css/portfolio.css"]
+    script[src="js/modernizr.custom.js"]
+    script
+      | var slides = [
+      == slides.each.map{ |slide| "'#{slide}'" }.join(',');
+      | ];
+  body
+    .codrops-top.clearfix
+      button.c-btn-nav.c-btn-nav--small.js-btn-prev
+        | <<
+      button.c-btn-nav.c-btn-nav--small.js-btn-next
+        | >>
+      span.right
+        | By Val Kotlarov Hoffman &nbsp;
+      object class="sa-logo sa-logo--main" data="images/sa.svg" type="image/svg+xml"
+      .c-current-page
+    #pt-main.pt-perspective
+      - slides.each do |slide|
+        == Slim::Template.new("pages/#{slide}.slim").render
+    .pt-message
+      p
+        | Empty page, or CSS animations not supported in this browser :(
+    script[src="js/jquery.min.js"]
+    script[src="js/pagetransitions.js"]
+

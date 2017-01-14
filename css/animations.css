@@ -1,0 +1,60 @@
+/* animation sets */
+
+/* move from / to  */
+
+.c-page-moveToLeft {
+  -webkit-animation: moveToLeft .3s ease both;
+  animation: moveToLeft .3s ease both;
+}
+
+.c-page-moveFromLeft {
+  -webkit-animation: moveFromLeft .3s ease both;
+  animation: moveFromLeft .3s ease both;
+}
+
+.c-page-moveToRight {
+  -webkit-animation: moveToRight .3s ease both;
+  animation: moveToRight .3s ease both;
+}
+
+.c-page-moveFromRight {
+  -webkit-animation: moveFromRight .3s ease both;
+  animation: moveFromRight .3s ease both;
+}
+
+
+/********************************* keyframes **************************************/
+
+/* move from / to  */
+
+@-webkit-keyframes moveToLeft {
+  from { }
+  to { -webkit-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+  from { }
+  to { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveFromLeft {
+  from { -webkit-transform: translateX(-100%); }
+}
+@keyframes moveFromLeft {
+  from { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveToRight { 
+  from { }
+  to { -webkit-transform: translateX(100%); }
+}
+@keyframes moveToRight { 
+  from { }
+  to { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+@-webkit-keyframes moveFromRight {
+  from { -webkit-transform: translateX(100%); }
+}
+@keyframes moveFromRight {
+  from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}

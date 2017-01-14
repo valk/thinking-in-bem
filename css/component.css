@@ -1,0 +1,54 @@
+html, body {
+  height: 100%; }
+
+.c-page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /* Text Styles, Colors, Backgrounds */ }
+  .c-page--color-1 {
+    background: #0ac2d2; }
+  .c-page--color-2 {
+    background: #7bb7fa; }
+  .c-page--color-3 {
+    background: #60d7a9; }
+  .c-page--color-4 {
+    background: #fdc162; }
+  .c-page--color-5 {
+    background: #fd6a62; }
+  .c-page--color-6 {
+    background: #f68dbb; }
+  .c-page--bg-spoon {
+    background: #fdc162 url("/images/spoon_feeding.jpg") no-repeat center center/cover; }
+  .c-page--bg-matrix {
+    background: #fdc162 url("/images/matrix.jpg") no-repeat center center/cover; }
+  .c-page--bg-whattt {
+    background: #fdc162 url("/images/whattt.jpg") no-repeat center center/cover; }
+  .c-page--bg-plan-wide {
+    background: #fdc162 url("/images/bem_plan.jpg") no-repeat center center/cover; }
+
+.c-page-current,
+.no-js .c-page {
+  visibility: visible;
+  z-index: 1; }
+
+.no-js body {
+  overflow: auto; }
+
+.c-page-ontop {
+  z-index: 999; }
+
+/*# sourceMappingURL=component.css.map */

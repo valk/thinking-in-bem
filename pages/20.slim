@@ -1,0 +1,83 @@
+.c-page.c-page--color-6
+  .c-page-title
+    .c-page-title__main
+      | Thinking in BEM
+    .c-page-title__primary
+      | Create a portfolio
+    .c-page-title__secondary
+      | Resulting CSS
+  .l-page-wrapper
+    .c-text
+      .r-reset.c-portfolio
+        .c-portfolio__head
+          .c-portfolio__controls
+            .c-portfolio__select
+              | Portfolio 1
+            .c-portfolio__bottom
+              .c-portfolio__rename
+                | rename
+              .c-portfolio__h-separator
+                | |
+              .c-portfolio__delete
+                | delete
+              .c-portfolio__edit
+                | edit
+            .c-portfolio__add-symbol
+              .c-portfolio__add-select
+                input type='text' placeholder="Add symbol..."
+              .c-portfolio__add-button
+                | +
+        .c-portfolio__body
+          - (0..4).each do |i|
+            .c-portfolio-item
+              .c-portfolio-item__first
+                .c-portfolio-item__stock-name
+                  | AAPL
+                .c-portfolio-item__stock-descr
+                  | Apple Inc.
+              .c-portfolio-item__middle
+                .c-portfolio-item__chart
+                  | -&radic;\/
+              .c-portfolio-item__last
+                .c-portfolio-item__price
+                  | $115.19
+                .c-portfolio-item__price-change
+                  | 1.89 (1.7%)
+    code.c-code
+      | .c-menu {
+      br
+      | &nbsp;&nbsp;width: 600px;
+      br
+      | &nbsp;&nbsp;height: 240px;
+      br
+      | &nbsp;&nbsp;background: red;
+      br
+      | }
+      br
+      | .c-menu--blue {
+      br
+      | &nbsp;&nbsp;background: blue;
+      br
+      | }
+      br
+      | .c-menu__menu-element {
+      br
+      | &nbsp;float: left;
+      br
+      | &nbsp;min-width: 50px;
+      br
+      | &nbsp;line-height: 240px;
+      br
+      | }
+      br
+      | .c-menu__menu-element--red {
+      br
+      | &nbsp;background: red;
+      br
+      | }
+      br
+      | .c-menu__menu-element--orange {
+      br
+      | &nbsp;background: orange;
+      br
+      | }
