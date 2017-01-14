@@ -8,9 +8,10 @@ html, body { height: 100%; }
   &--color-4 { background: #fdc162; }
   &--color-5 { background: #fd6a62; }
   &--color-6 { background: #f68dbb; }
-  &--bg-spoon { background: #fdc162 url("/images/spoon_feeding.jpg") no-repeat center center / cover; }
-  &--bg-matrix { background: #fdc162 url("/images/matrix.jpg") no-repeat center center / cover; }
-  &--bg-whattt { background: #fdc162 url("/images/whattt.jpg") no-repeat center center / cover; }
+  &--bg-spoon { background: #fdc162 url("../images/spoon_feeding.jpg") no-repeat center center / cover; }
+  &--bg-matrix { background: #fdc162 url("../images/matrix.jpg") no-repeat center center / cover; }
+  &--bg-whattt { background: #fdc162 url("../images/whattt.jpg") no-repeat center center / cover; }
+  &--bg-plan-wide { background: #fdc162 url("../images/bem_plan.jpg") no-repeat center center / cover; }
 }
 
 .c-page-current,

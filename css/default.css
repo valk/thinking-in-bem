@@ -1,5 +1,5 @@
 /* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Satisfy);
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700|Satisfy);
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 17px; padding: 0; margin: 0;}

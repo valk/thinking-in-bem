@@ -32,13 +32,13 @@ html, body {
   .c-page--color-6 {
     background: #f68dbb; }
   .c-page--bg-spoon {
-    background: #fdc162 url("/images/spoon_feeding.jpg") no-repeat center center/cover; }
+    background: #fdc162 url("../images/spoon_feeding.jpg") no-repeat center center/cover; }
   .c-page--bg-matrix {
-    background: #fdc162 url("/images/matrix.jpg") no-repeat center center/cover; }
+    background: #fdc162 url("../images/matrix.jpg") no-repeat center center/cover; }
   .c-page--bg-whattt {
-    background: #fdc162 url("/images/whattt.jpg") no-repeat center center/cover; }
+    background: #fdc162 url("../images/whattt.jpg") no-repeat center center/cover; }
   .c-page--bg-plan-wide {
-    background: #fdc162 url("/images/bem_plan.jpg") no-repeat center center/cover; }
+    background: #fdc162 url("../images/bem_plan.jpg") no-repeat center center/cover; }
 
 .c-page-current,
 .no-js .c-page {
